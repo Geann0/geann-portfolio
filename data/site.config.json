@@ -1,0 +1,54 @@
+{
+  "site_title": "Geann0 — Full Stack Developer",
+  "site_description": "Portfólio de Geann0 — projetos em TypeScript, Next.js e soluções web modernas.",
+  "author": {
+    "display_name": "Geann0",
+    "title": "Full Stack Developer",
+    "short_bio": "Desenvolvedor full stack com foco em TypeScript, Next.js e soluções web modernas. Constrói produtos com atenção à segurança, performance e UX.",
+    "profile_image_url": "/images/profile.jpg",
+    "resume_url": "/documents/resume.pdf"
+  },
+  "contact": {
+    "email": "seu@email.com",
+    "phone": "+55 (11) 99999-9999"
+  },
+  "social": {
+    "github": "https://github.com/Geann0",
+    "linkedin": "https://linkedin.com/in/seu-perfil",
+    "twitter": "https://twitter.com/seu-perfil"
+  },
+  "navigation": [
+    { "label": "Início", "href": "/" },
+    { "label": "Sobre", "href": "/about" },
+    { "label": "Projetos", "href": "/projects" },
+    { "label": "Contato", "href": "#contact" }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5/CSS3"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": ["Git", "Docker", "Vercel", "AWS", "CI/CD"]
+    },
+    {
+      "category": "Soft Skills",
+      "items": ["Problem Solving", "Team Collaboration", "Agile/Scrum", "Code Review"]
+    }
+  ],
+  "seo": {
+    "keywords": ["full stack developer", "typescript", "next.js", "react", "web development", "software engineer"],
+    "og_image": "/images/og-image.jpg",
+    "twitter_handle": "@seu-perfil"
+  },
+  "theme": {
+    "primary_color": "#0ea5a4",
+    "accent_color": "#2563eb",
+    "extract_from_profile_image": true
+  }
+}

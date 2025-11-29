@@ -1,0 +1,145 @@
+{
+  "project_manifest": {
+    "name": "ketlyn-trindade-portfolio",
+    "version": "1.0.0",
+    "description": "Portfólio profissional Full Stack para Social Media Manager com foco em transição de carreira (Direito/Polícia).",
+    "developer_level": "Junior/Mid-Level Full Stack",
+    "author": "Geann Carlos"
+  },
+  "tech_stack": {
+    "core": {
+      "framework": "Next.js 14+ (App Router)",
+      "language": "TypeScript",
+      "styling": "Tailwind CSS",
+      "components": "shadcn/ui (para agilidade e estética premium)"
+    },
+    "backend_infra": {
+      "runtime": "Node.js (Next.js Server Actions & API Routes)",
+      "database": "PostgreSQL (Via Supabase ou NeonDB)",
+      "orm": "Prisma ORM",
+      "storage": "Supabase Storage (para upload de mídias do portfólio)"
+    },
+    "integrations": {
+      "email": "Resend (para formulário de contato)",
+      "analytics": "Vercel Analytics",
+      "forms": "React Hook Form + Zod"
+    },
+    "testing_qa": {
+      "unit": "Jest + React Testing Library",
+      "e2e": "Playwright",
+      "linting": "ESLint + Prettier"
+    }
+  },
+  "design_system": {
+    "theme": "Dark Mode Default (Estética 'Autoridade e Mistério')",
+    "palette": {
+      "primary": "#1a1a1a (Cinza Chumbo/Asfalto - Referência Moto)",
+      "secondary": "#ffffff (Off-White - Clareza/Fé)",
+      "accent": "#d4af37 (Dourado Sutil - Referência Direito/Sucesso)",
+      "highlight": "#7c3aed (Roxo Profundo - Criatividade/Social Media)"
+    },
+    "typography": {
+      "headings": "Font Sans (Inter ou Montserrat - Forte e Moderna)",
+      "body": "Font Serif (Merriweather - Toque Jurídico sutil)"
+    }
+  },
+  "project_structure": {
+    "root_files": [
+      "next.config.js",
+      "tailwind.config.ts",
+      "tsconfig.json",
+      ".env.example",
+      "middleware.ts (Proteção de rotas admin)"
+    ],
+    "directories": {
+      "app": {
+        "(public)": [
+          "page.tsx",
+          "portfolio/page.tsx",
+          "sobre/page.tsx",
+          "contato/page.tsx"
+        ],
+        "(admin)": ["dashboard/page.tsx (CRUD de projetos)"],
+        "api": ["contact/route.ts", "projects/route.ts"]
+      },
+      "components": ["ui", "layout", "sections", "forms"],
+      "lib": ["prisma.ts", "utils.ts", "validations.ts"],
+      "types": ["index.d.ts"]
+    }
+  },
+  "database_schema": {
+    "models": [
+      {
+        "name": "User",
+        "fields": ["id", "email", "password_hash", "role (ADMIN)"]
+      },
+      {
+        "name": "Project",
+        "fields": [
+          "id",
+          "title (ex: Frigorífico Magnata)",
+          "description",
+          "category (Video/Design/Copy)",
+          "media_url",
+          "client_name",
+          "created_at"
+        ]
+      },
+      {
+        "name": "Testimonial",
+        "fields": ["id", "author", "content", "role"]
+      }
+    ]
+  },
+  "content_strategy": {
+    "hero_section": {
+      "headline": "Transformando Criatividade em Resultado.",
+      "subheadline": "Social Media Manager | Edição de Vídeo | Estratégia Digital",
+      "cta": "Ver Projetos"
+    },
+    "about_section": {
+      "narrative": "Combinação de disciplina (foco em Direito/Polícia) com a liberdade criativa do Marketing.",
+      "hobbies_icons": [
+        "Moto (Adrenalina)",
+        "Cruz (Princípios)",
+        "Balança (Justiça)"
+      ]
+    },
+    "portfolio_seeding": {
+      "highlight_project": "Case Frigorífico Magnata - Edição Viral e Identidade Visual."
+    }
+  },
+  "development_roadmap": {
+    "phase_1_setup": [
+      "Inicializar Next.js + TS + Tailwind.",
+      "Configurar Shadcn/UI.",
+      "Configurar Prisma + Conexão Postgres Local."
+    ],
+    "phase_2_backend": [
+      "Criar Schema do Banco.",
+      "Configurar Server Actions para formulário de contato.",
+      "Configurar Middleware de autenticação (NextAuth ou manual simples)."
+    ],
+    "phase_3_frontend": [
+      "Desenvolver Hero Section (Alta fidelidade visual).",
+      "Desenvolver Grid de Projetos (Responsivo).",
+      "Implementar Dark Mode."
+    ],
+    "phase_4_refine": [
+      "Auditoria de Segurança (Helmet, Rate Limiting).",
+      "Testes Unitários em componentes críticos.",
+      "Deploy na Vercel."
+    ]
+  },
+  "documentation_requirements": {
+    "readme": {
+      "sections": [
+        "Setup do Ambiente (Node, Docker se houver)",
+        "Variáveis de Ambiente (.env)",
+        "Como rodar as Migrations do Banco",
+        "Guia de Deploy"
+      ]
+    },
+    "dev_guide": "Incluir comentários explicativos no código para demonstrar domínio técnico (já que é um exercício)."
+  }
+}

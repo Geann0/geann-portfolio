@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  * {
+    @apply border-slate-200;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
+@layer utilities {
+  /* Custom animations */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+
+  /* Custom utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Glass morphism effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent;
+  }
+
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-300 hover:bg-slate-400;
+  }
+
+  /* Focus visible styles */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2;
+  }
+}
+
+@layer components {
+  /* Button variants */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold transition-all focus-ring disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply btn border-2 border-slate-300 bg-white text-slate-700 hover:border-primary-600 hover:text-primary-600;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-slate-600 hover:bg-slate-100;
+  }
+
+  /* Card styles */
+  .card {
+    @apply overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-xl;
+  }
+
+  /* Input styles */
+  .input {
+    @apply w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 transition-colors focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-600/20;
+  }
+
+  /* Section container */
+  .section {
+    @apply py-20;
+  }
+
+  .section-title {
+    @apply mb-12 text-center text-3xl font-bold text-slate-900 lg:text-4xl;
+  }
+
+  /* Link hover effect */
+  .link-hover {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary-600 after:transition-all hover:after:w-full;
+  }
+}
+
+/* Keyframes defined in tailwind.config.ts are automatically available */
+
+/* Print styles */
+@media print {
+  nav,
+  footer,
+  .no-print {
+    @apply hidden;
+  }
+
+  body {
+    @apply text-black;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .card {
+    @apply border-2;
+  }
+
+  .btn {
+    @apply border-2 border-current;
+  }
+}
+
+/* Dark mode preparation (optional) */
+@media (prefers-color-scheme: dark) {
+  /* Uncomment to enable dark mode */
+  /* :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-slate-900 text-slate-100;
+  }
+
+  .card {
+    @apply border-slate-700 bg-slate-800;
+  } */
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "project-1",
+    "slug": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "short_description": "Plataforma completa de e-commerce com sistema de pagamentos integrado, gestão de inventário e painel administrativo.",
+    "long_description": "Desenvolvimento de uma plataforma e-commerce full-stack com Next.js 14, implementando autenticação segura, integração com Stripe para pagamentos, sistema de carrinho de compras em tempo real e dashboard administrativo para gestão de produtos e pedidos. A aplicação utiliza PostgreSQL para persistência de dados e Redis para cache, alcançando tempos de resposta inferiores a 200ms.",
+    "cover_image": "/images/projects/ecommerce.jpg",
+    "images": [
+      "/images/projects/ecommerce-1.jpg",
+      "/images/projects/ecommerce-2.jpg",
+      "/images/projects/ecommerce-3.jpg"
+    ],
+    "tags": ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    "tech_stack": {
+      "frontend": ["Next.js 14", "TypeScript", "Tailwind CSS", "Zustand"],
+      "backend": ["Next.js API Routes", "Prisma ORM", "PostgreSQL", "Redis"],
+      "deployment": ["Vercel", "Railway"]
+    },
+    "repo_url": "https://github.com/Geann0/ecommerce-platform",
+    "demo_url": "https://ecommerce-demo.vercel.app",
+    "year": "2024",
+    "highlight_achievement": "Processou +10k transações com 99.9% de uptime",
+    "responsibilities": [
+      "Arquitetura e design do sistema full-stack",
+      "Implementação de autenticação JWT e autorização baseada em roles",
+      "Integração com gateway de pagamento Stripe",
+      "Desenvolvimento de dashboard administrativo com métricas em tempo real",
+      "Otimização de performance e SEO"
+    ],
+    "featured": true,
+    "status": "completed"
+  },
+  {
+    "id": "project-2",
+    "slug": "task-management-app",
+    "title": "Task Management App",
+    "short_description": "Aplicativo colaborativo de gestão de tarefas com drag-and-drop, notificações em tempo real e integração com calendário.",
+    "long_description": "Sistema de gerenciamento de projetos estilo Kanban desenvolvido com React e Node.js. Implementa funcionalidades de arrastar e soltar, colaboração em tempo real via WebSockets, sistema de notificações push e integração com Google Calendar. Inclui autenticação OAuth2, permissões granulares e exportação de relatórios em PDF.",
+    "cover_image": "/images/projects/task-app.jpg",
+    "images": [
+      "/images/projects/task-app-1.jpg",
+      "/images/projects/task-app-2.jpg"
+    ],
+    "tags": ["React", "Node.js", "WebSockets", "MongoDB", "Express"],
+    "tech_stack": {
+      "frontend": ["React 18", "TypeScript", "React DnD", "TanStack Query"],
+      "backend": ["Node.js", "Express", "Socket.io", "MongoDB", "JWT"],
+      "deployment": ["Netlify", "Heroku"]
+    },
+    "repo_url": "https://github.com/Geann0/task-management",
+    "demo_url": "https://taskapp-demo.netlify.app",
+    "year": "2023",
+    "highlight_achievement": "500+ usuários ativos mensais",
+    "responsibilities": [
+      "Desenvolvimento de interface drag-and-drop responsiva",
+      "Implementação de sistema de notificações em tempo real",
+      "API RESTful com documentação Swagger",
+      "Testes unitários e de integração (Jest + Supertest)"
+    ],
+    "featured": true,
+    "status": "completed"
+  },
+  {
+    "id": "project-3",
+    "slug": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "short_description": "Dashboard meteorológico com previsões em tempo real, mapas interativos e alertas personalizados baseados em localização.",
+    "long_description": "Aplicação web que consome múltiplas APIs meteorológicas para fornecer previsões precisas, visualizações de dados históricos e alertas personalizados. Utiliza geolocalização para detecção automática de localização, mapas interativos com Mapbox e gráficos dinâmicos para visualização de tendências climáticas.",
+    "cover_image": "/images/projects/weather.jpg",
+    "images": [
+      "/images/projects/weather-1.jpg"
+    ],
+    "tags": ["Next.js", "TypeScript", "Mapbox", "Chart.js", "API Integration"],
+    "tech_stack": {
+      "frontend": ["Next.js", "TypeScript", "Mapbox GL", "Recharts"],
+      "backend": ["Next.js API Routes", "OpenWeather API", "Geolocation API"],
+      "deployment": ["Vercel"]
+    },
+    "repo_url": "https://github.com/Geann0/weather-dashboard",
+    "demo_url": "https://weather-dashboard-demo.vercel.app",
+    "year": "2024",
+    "highlight_achievement": "Lighthouse Score: 98/100",
+    "responsibilities": [
+      "Integração com múltiplas APIs meteorológicas",
+      "Implementação de sistema de cache inteligente",
+      "Design responsivo e acessível (WCAG 2.1 AA)",
+      "Otimização de performance e lazy loading de componentes"
+    ],
+    "featured": false,
+    "status": "completed"
+  },
+  {
+    "id": "project-4",
+    "slug": "blog-cms",
+    "title": "Headless CMS Blog",
+    "short_description": "Sistema de gerenciamento de conteúdo com editor Markdown, SEO otimizado e geração estática de páginas para máxima performance.",
+    "long_description": "CMS headless desenvolvido com Next.js e TypeScript, focado em performance e SEO. Implementa edição de conteúdo em Markdown com preview em tempo real, otimização automática de imagens, geração estática de páginas (SSG) e suporte a múltiplos autores. Inclui sistema de tags, categorias, comentários e analytics integrado.",
+    "cover_image": "/images/projects/blog-cms.jpg",
+    "images": [],
+    "tags": ["Next.js", "MDX", "CMS", "SEO", "Static Generation"],
+    "tech_stack": {
+      "frontend": ["Next.js 14", "TypeScript", "MDX", "Tailwind CSS"],
+      "backend": ["Contentlayer", "GitHub API", "ISR"],
+      "deployment": ["Vercel"]
+    },
+    "repo_url": "https://github.com/Geann0/blog-cms",
+    "demo_url": "https://blog-cms-demo.vercel.app",
+    "year": "2023",
+    "highlight_achievement": "Core Web Vitals: todas métricas verdes",
+    "responsibilities": [
+      "Arquitetura de sistema CMS headless",
+      "Implementação de editor Markdown com MDX",
+      "SEO técnico e structured data (JSON-LD)",
+      "Sistema de build incremental (ISR)"
+    ],
+    "featured": false,
+    "status": "completed"
+  },
+  {
+    "id": "project-5",
+    "slug": "portfolio-generator",
+    "title": "Portfolio Generator",
+    "short_description": "Ferramenta CLI para gerar sites de portfólio personalizados com templates modernos e deploy automatizado.",
+    "long_description": "Gerador de portfólios via linha de comando que cria sites completos e prontos para deploy em minutos. Oferece múltiplos templates, personalização de cores baseada em análise de imagens, integração com GitHub para buscar projetos automaticamente e deploy com um comando para Vercel ou Netlify.",
+    "cover_image": "/images/projects/portfolio-gen.jpg",
+    "images": [],
+    "tags": ["Node.js", "CLI", "TypeScript", "Templates", "Automation"],
+    "tech_stack": {
+      "core": ["Node.js", "TypeScript", "Commander.js", "Inquirer.js"],
+      "features": ["GitHub API", "Sharp (image processing)", "Template engine"],
+      "deployment": ["npm package"]
+    },
+    "repo_url": "https://github.com/Geann0/portfolio-generator",
+    "demo_url": null,
+    "year": "2024",
+    "highlight_achievement": "1k+ downloads no npm",
+    "responsibilities": [
+      "Desenvolvimento de CLI interativa",
+      "Sistema de templates com variáveis dinâmicas",
+      "Integração com APIs de deploy (Vercel/Netlify)",
+      "Documentação completa e exemplos"
+    ],
+    "featured": false,
+    "status": "active"
+  }
+]

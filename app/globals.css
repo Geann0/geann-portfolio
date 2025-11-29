@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #111111;
+  --contrast: #1a1a1a;
+  --text: #f3f4f6;
+  --muted: #c6c6c6;
+  --accent: #d4af37;
+  --highlight: #7c3aed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--canvas);
+  color: var(--text);
+  font-family: var(--font-merriweather), "Merriweather", serif;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 70%, transparent);
+  color: var(--canvas);
+}
