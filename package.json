@@ -1,22 +1,16 @@
 {
-<<<<<<< HEAD
   "name": "portfolio-geann0",
   "version": "1.0.0",
-=======
-  "name": "ketlyn-trindade-portfolio",
-  "version": "0.1.0",
->>>>>>> 98095f53ba63eff748656f43fcc213d470afe403
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "dependencies": {
-    "next": "^14.0.0",
+    "next": "^14.2.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.48.0",
@@ -38,23 +32,5 @@
     "eslint-config-next": "^14.0.0",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.0"
-=======
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.0.5",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.5",
-    "tailwindcss": "^4",
-    "typescript": "^5"
->>>>>>> 98095f53ba63eff748656f43fcc213d470afe403
   }
 }
