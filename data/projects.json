@@ -4,7 +4,7 @@
     "slug": "ecommerce-platform",
     "title": "E-Commerce Platform",
     "short_description": "Plataforma completa de e-commerce com sistema de pagamentos integrado, gestão de inventário e painel administrativo.",
-    "long_description": "Desenvolvimento de uma plataforma e-commerce full-stack com Next.js 14, implementando autenticação segura, integração com Stripe para pagamentos, sistema de carrinho de compras em tempo real e dashboard administrativo para gestão de produtos e pedidos. A aplicação utiliza PostgreSQL para persistência de dados e Redis para cache, alcançando tempos de resposta inferiores a 200ms.",
+    "long_description": "Desenvolvimento de uma plataforma e-commerce full-stack com Next.js 14, implementando autenticação segura, integração com Stripe para pagamentos, sistema de carrinho de compras em tempo real e dashboard administrativo para gestão de produtos e pedidos. A aplicação utiliza PostgreSQL para persistência de dados e Redis para cache, alcançando tempos de resposta inferiores a 200ms. O código completo é privado, mas disponibilizo uma versão demo funcional para demonstração.",
     "cover_image": "/images/projects/ecommerce.jpg",
     "images": [
       "/images/projects/ecommerce-1.jpg",
@@ -17,8 +17,8 @@
       "backend": ["Next.js API Routes", "Prisma ORM", "PostgreSQL", "Redis"],
       "deployment": ["Vercel", "Railway"]
     },
-    "repo_url": "https://github.com/Geann0/ecommerce-platform",
-    "demo_url": "https://ecommerce-demo.vercel.app",
+    "repo_url": "https://github.com/Geann0/Tech4DEMO",
+    "demo_url": "https://tech4demo.vercel.app",
     "year": "2024",
     "highlight_achievement": "Processou +10k transações com 99.9% de uptime",
     "responsibilities": [
