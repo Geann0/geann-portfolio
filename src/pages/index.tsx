@@ -45,8 +45,8 @@ export default function Home() {
               <p className="text-lg leading-relaxed text-slate-600">
                 Trabalho com tecnologias modernas para criar soluções web
                 escaláveis, seguras e com excelente experiência do usuário.
-                Cada projeto é uma oportunidade de aprender e entregar valor
-                real.
+                Para mim, cada projeto é uma oportunidade de aprender algo novo
+                e entregar valor real.
               </p>
             </div>
           </div>

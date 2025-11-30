@@ -27,7 +27,7 @@ export default function About() {
                 Sobre mim
               </h1>
               <p className="text-xl text-slate-700">
-                {siteConfig.author.title} apaixonado por criar experiências web
+                Sou {siteConfig.author.title} apaixonado por criar experiências web
                 excepcionais
               </p>
             </div>
@@ -70,9 +70,9 @@ export default function About() {
                     importante quanto a funcionalidade final.
                   </p>
                   <p>
-                    Quando não estou codificando, você pode me encontrar
-                    aprendendo novas tecnologias, contribuindo para projetos
-                    open-source ou compartilhando conhecimento com a comunidade.
+                    Quando não estou codificando, gosto de aprender novas
+                    tecnologias, contribuir para projetos open-source e
+                    compartilhar conhecimento com a comunidade.
                   </p>
                 </div>
               </div>

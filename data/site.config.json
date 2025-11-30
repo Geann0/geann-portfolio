@@ -1,10 +1,10 @@
 {
   "site_title": "Geann0 — Full Stack Developer",
-  "site_description": "Portfólio de Geann0 — projetos em TypeScript, Next.js e soluções web modernas.",
+  "site_description": "Meu portfólio — projetos em TypeScript, Next.js e soluções web modernas.",
   "author": {
     "display_name": "Geann0",
     "title": "Full Stack Developer",
-    "short_bio": "Desenvolvedor full stack com foco em TypeScript, Next.js e soluções web modernas. Constrói produtos com atenção à segurança, performance e UX.",
+    "short_bio": "Sou desenvolvedor full stack focado em TypeScript, Next.js e soluções web modernas. Construo produtos com atenção à segurança, performance e experiência do usuário.",
     "profile_image_url": "https://github.com/Geann0.png",
     "resume_url": "/documents/resume.pdf"
   },
