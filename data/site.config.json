@@ -5,7 +5,7 @@
     "display_name": "Geann0",
     "title": "Full Stack Developer",
     "short_bio": "Desenvolvedor full stack com foco em TypeScript, Next.js e soluções web modernas. Constrói produtos com atenção à segurança, performance e UX.",
-    "profile_image_url": "/images/profile.jpg",
+    "profile_image_url": "https://github.com/Geann0.png",
     "resume_url": "/documents/resume.pdf"
   },
   "contact": {
