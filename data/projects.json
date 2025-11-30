@@ -8,8 +8,7 @@
     "cover_image": "/images/projects/ecommerce.jpg",
     "images": [
       "/images/projects/ecommerce-1.jpg",
-      "/images/projects/ecommerce-2.jpg",
-      "/images/projects/ecommerce-3.jpg"
+      "/images/projects/ecommerce-2.jpg"
     ],
     "tags": ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind CSS"],
     "tech_stack": {
